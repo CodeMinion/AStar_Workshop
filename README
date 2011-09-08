@@ -1,0 +1,54 @@
+/*************************************************************************
+ * SIG-Games Workshop
+ * 
+ * Main Topic: A* Pathfinder Algorithm 
+ * Sub Topics: None
+ *             
+ * 
+ * Purpose: The main goal of this workshop is to introduce pathfinding
+ *          algorithims. Mainly, we introduce the A* pathfiding 
+ *          algorithm. We go over the theory behind this algorithm as 
+ *          well as the implementaiton and application in an RTS like
+ *          setting. 
+ *                                  
+ * Author: Frank E. Hernandez
+ * A.K.A.: CodeMinion
+ * Site: http://www.cs.fiu.edu/~fhern006
+ * 
+ * Art:
+ * 
+ * Author: Yar
+ * Filename: iso-64x64-outside
+ * Link: http://opengameart.org/content/isometric-64x64-outside-tileset
+ * 
+ * Author: Blarumyrran
+ * Filename: human-city
+ * Link: http://opengameart.org/content/old-stone-buildings
+ * 
+ * 
+ * Author: Clint Bellanger
+ * Filename: goblin_lumberjack_black.png
+ * Filename: goblin_lumberjack_blue.png
+ * Filename: goblin_lumberjack_cyan.png
+ * Filename: goblin_lumberjack_green.png
+ * Filename: goblin_lumberjack_orange.png
+ * Filename: goblin_lumberjack_pink.png
+ * Filename: goblin_lumberjack_purple.png
+ * Filename: goblin_lumberjack_red.png
+ * Filename: goblin_lumberjack_white.png
+ * Filename: goblin_lumberjack_yellow.png
+ * Link: http://opengameart.org/content/goblin-lumberjack 
+ * 
+ * Author: qubodup
+ * Filename: pointer
+ * Link: http://opengameart.org/content/bw-ornamental-cursor-19x19
+ * 
+ * 
+ * Audio:
+ * Author: qubodup
+ * Filename: click-click-mono
+ * Link: http://opengameart.org/content/click-ui-menu-sfx-yesnoselect
+ * 
+ * 
+ * ***********************************************************************/
+
