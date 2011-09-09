@@ -53,7 +53,7 @@ namespace IsometricMap.Entities
             AddAnimation(DIRECTION.UP, "IDLE", anim);
             SetCurrentAnimation(DIRECTION.UP, "IDLE");
 
-            m_EntityCenter = new Vector2(32, 16);
+            m_EntityCenter = new Vector2(0, 0);//(32, 16);
    
         }
 

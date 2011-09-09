@@ -122,9 +122,14 @@ namespace IsometricMap.Entities
                 m_WoodQuantity--;
                 giveAmount = 1;
             }
-            if(m_WoodQuantity <= 0)
+            if (m_WoodQuantity <= 0)
+            {
                 m_bEnabled = false;
-            
+
+                Map.MapHandler.GetInstance().SetTileSolid(Map.MapHandler.GetInstance().GetTileIndex(
+                                                          Vector2.Add(m_WorldPosition, m_EntityCenter)), 
+                                                          false);
+            }
             return giveAmount;
         }
         /// <summary>

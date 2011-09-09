@@ -1,20 +1,33 @@
 /*************************************************************************
  * SIG-Games Workshop
  * 
- * Main Topic: A* Pathfinder Algorithm 
- * Sub Topics: None
+ * Main Topic: 
+ * Sub Topics: 
  *             
  * 
- * Purpose: The main goal of this workshop is to introduce pathfinding
- *          algorithims. Mainly, we introduce the A* pathfiding 
- *          algorithm. We go over the theory behind this algorithm as 
- *          well as the implementaiton and application in an RTS like
- *          setting. 
+ * Purpose: The main goal of this workshop is to introduce finite state 
+ *          machines (FSM) and demonstrated how they can be applied in 
+ *          the context of games. In the case of this example we use
+ *          an FSM to control our goblin lumberjack as he goes on the 
+ *          world and attempts to gather wood.
+ 
+ *          As an alternate goal this workshops attempts to introduce
+ *          some design patterns along with their implementation and
+ *          ussage. 
+ *          State Design Pattern: Used in order to create or FSM.
+ *          Singlton Design Patter: Used to maintain only one
+ *                                  one instance of each state at
+ *                                  any point in time. Since all the 
+ *                                  state information is held by the 
+ *                                  owner of the state there is no
+ *                                  need to create new instance of the 
+ *                                  states every time.
  *                                  
  * Author: Frank E. Hernandez
  * A.K.A.: CodeMinion
  * Site: http://www.cs.fiu.edu/~fhern006
  * 
+ 
  * Art:
  * 
  * Author: Yar
@@ -132,13 +145,13 @@ namespace IsometricMap
 
 
             m_TreeList = new List<TreeEntity>();
-            m_TreeList.Add(new TreeEntity(new Vector2(2 * 64, 4 * 24)));
-            m_TreeList.Add(new TreeEntity(new Vector2(9 * 64 + 32, 7 * 24)));
-            m_TreeList.Add(new TreeEntity(new Vector2(0 * 64, 0 * 24)));
-            m_TreeList.Add(new TreeEntity(new Vector2(1 * 64, 10 * 24)));
+            m_TreeList.Add(new TreeEntity(new Vector2(2 * 64, 4 * 64/4 )));
+            m_TreeList.Add(new TreeEntity(new Vector2(9 * 64 + 32, 7 * 64 / 4)));
+            m_TreeList.Add(new TreeEntity(new Vector2(0 * 64, 0 * 64 / 4)));
+            m_TreeList.Add(new TreeEntity(new Vector2(1 * 64, 10 * 64 / 4)));
 
             m_LumberMills = new List<LumberMill>();
-            m_LumberMills.Add(new LumberMill(new Vector2(8 * 64, 8 * 24)));
+            m_LumberMills.Add(new LumberMill(new Vector2(8 * 64, 8 * 64/4)));
 
             m_mouseSource = new Rectangle(0, 0, 19, 19);
             
@@ -155,8 +168,8 @@ namespace IsometricMap
             //m_TestLayer.SetTileToSolid(5, 21, false);
             //m_TestLayer.SetTileToSolid(4, 0, false);
 
-            SetTilesToSolid();
             MapHandler.GetInstance().SetActiveLayer(m_TestLayer);
+            SetTilesToSolid();
             
             m_TestTile = new MapTile(new Vector2(0, 0), 0, new Vector2(64,64));
 
@@ -204,6 +217,21 @@ namespace IsometricMap
                     
                     m_TestLayer.SetTileToSolid(i, j, m_bSetTilesToSolid);
                 }
+            }
+            foreach (TreeEntity tree in m_TreeList)
+            {
+                if (tree.IsEnabled())
+                {
+                    Vector2 pos = tree.GetCenterPosition();
+                    Vector2 treeIndex = MapHandler.GetInstance().GetTileIndex(pos);
+                    m_TestLayer.SetTileToSolid((int)treeIndex.X, (int)treeIndex.Y, m_bSetTilesToSolid);
+                }
+            }
+            foreach (LumberMill mill in m_LumberMills)
+            {
+                Vector2 pos = mill.GetCenterPosition();
+                Vector2 millIndex = MapHandler.GetInstance().GetTileIndex(pos);
+                m_TestLayer.SetTileToSolid((int)millIndex.X, (int)millIndex.Y, m_bSetTilesToSolid);
             }
             //m_TestLayer.SetTileToSolid(5, 21, false);
             //m_TestLayer.SetTileToSolid(4, 0, false);

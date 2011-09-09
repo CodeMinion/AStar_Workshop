@@ -229,6 +229,13 @@ namespace IsometricMap.Map
             finalPos.Y = y;
             return finalPos;
         }
+        public void SetTileSolid(Vector2 tileIndex, bool isSolid)
+        {
+            if (m_mlActiveLayer == null)
+                return;
+
+            m_mlActiveLayer.SetTileToSolid((int)tileIndex.X, (int)tileIndex.Y, isSolid);
+        }
         
     }
 }

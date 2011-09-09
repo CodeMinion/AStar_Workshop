@@ -364,6 +364,28 @@ namespace IsometricMap.Entities
             Vector2 startIndex = Map.MapHandler.GetInstance().GetTileIndex(startPosition);
             Vector2 endIndex = Map.MapHandler.GetInstance().GetTileIndex(endPosition);
 
+            Vector2 closestSoFar = endIndex;
+            // Check if the destination is solid
+            bool isDestSolid = MapHandler.GetInstance().IsTileSolid(endIndex);
+            if (isDestSolid)
+            {
+                List<Vector2> adj = MapHandler.GetInstance().GetAdjacentsToTile(endIndex);
+                closestSoFar = adj[0];
+                foreach (Vector2 vec in adj)
+                {
+                    if (!MapHandler.GetInstance().IsTileSolid(vec))
+                    {
+                        // Find the closest adjecent to the caller.
+                        if (Vector2.Distance(closestSoFar, startIndex) > Vector2.Distance(vec, startIndex))
+                        {
+                            closestSoFar = vec;
+                        }
+                        //endIndex = vec;
+                        //break;
+                    }
+                }
+            }
+            endIndex = closestSoFar;
             // Call Pathfinder find a path from the startIndex to the end index.
             m_pnCurrPath = m_pfMyPathFinder.FindPath(startIndex, endIndex);
 

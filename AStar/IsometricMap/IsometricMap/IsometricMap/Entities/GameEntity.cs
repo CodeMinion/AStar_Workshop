@@ -234,6 +234,14 @@ namespace IsometricMap.Entities
             m_WorldPosition.X = pos.X;
             m_WorldPosition.Y = pos.Y;
         }
+        public Vector2 GetWorldPosition()
+        {
+            return m_WorldPosition;
+        }
+        public Vector2 GetCenterPosition()
+        {
+            return Vector2.Add(m_DrawPosition, m_EntityCenter);
+        }
 
         public void SetDrawPosition(Vector2 pos)
         {
@@ -309,7 +317,7 @@ namespace IsometricMap.Entities
                     movementDir = DIRECTION.DOWN_RIGHT;
                     m_MovementDelta.X = 1;
                     targetPos.X -= distance;
-                    targetPos.X -= m_SpriteSize.X;
+                    //targetPos.X -= m_SpriteSize.X;
                 }
                 else if (m_WorldPosition.X > targetPos.X)
                 {
@@ -332,7 +340,7 @@ namespace IsometricMap.Entities
                     movementDir = DIRECTION.RIGHT;
                     m_MovementDelta.X = 1;
                     targetPos.X -= distance;
-                    targetPos.X -= m_SpriteSize.X;
+                    //targetPos.X -= m_SpriteSize.X;
                 
                 }
                 else if (m_WorldPosition.X > targetPos.X)
@@ -358,7 +366,7 @@ namespace IsometricMap.Entities
                     movementDir = DIRECTION.UP_RIGHT;
                     m_MovementDelta.X = 1;
                     targetPos.X -= distance;
-                    targetPos.X -= m_SpriteSize.X;
+                    //targetPos.X -= m_SpriteSize.X;
                 }
                 else if (m_WorldPosition.X > targetPos.X)
                 {

@@ -17,7 +17,6 @@ using IsometricMap.Logic.States.Goblin.Lumberjack;
 
 using IsometricMap.Pathfinder;
 using IsometricMap.Pathfinder.Base;
-//using IsometricMap.Pathfinder.A_Star;
 
 using IsometricMap.Map;
 
@@ -137,7 +136,7 @@ namespace IsometricMap.Entities
 
 #endregion
 
-            // Initialize the Pathfinder
+            // Initialize the Pathfindr
             
             #region Nothing to see here, Move along.
 
@@ -325,7 +324,7 @@ namespace IsometricMap.Entities
             m_TargetLumberMill = null;
             m_TargetEntity = null;
 
-            //if (FindPathToDestination(m_WorldPosition, targetPos, out targetPos))
+            if (FindPathToDestination(m_WorldPosition, targetPos, out targetPos))
             {
                 base.MoveTo(targetPos);
             }
@@ -359,13 +358,36 @@ namespace IsometricMap.Entities
         /// <returns>True if a path is found.</returns>
         public bool FindPathToDestination(Vector2 startPosition, Vector2 endPosition, out Vector2 destPos)
         {
-            // Get start index.
-            // Get end index.
-            
+            Vector2 startIndex = Map.MapHandler.GetInstance().GetTileIndex(startPosition);
+            Vector2 endIndex = Map.MapHandler.GetInstance().GetTileIndex(endPosition);
+
+            Vector2 closestSoFar = endIndex;
+            // Check if the destination is solid
+            bool isDestSolid = MapHandler.GetInstance().IsTileSolid(endIndex);
+            if (isDestSolid)
+            {
+                List<Vector2> adj = MapHandler.GetInstance().GetAdjacentsToTile(endIndex);
+                closestSoFar = adj[0];
+                foreach (Vector2 vec in adj)
+                {
+                    if (!MapHandler.GetInstance().IsTileSolid(vec))
+                    {
+                        // Find the closest adjecent to the caller.
+                        if (Vector2.Distance(closestSoFar, startIndex) > Vector2.Distance(vec, startIndex))
+                        {
+                            closestSoFar = vec;
+                        }
+                        //endIndex = vec;
+                        //break;
+                    }
+                }
+            }
+            endIndex = closestSoFar;
             // Call Pathfinder find a path from the startIndex to the end index.
             
             // If a path was found, then make the first node in the 
             // path the first destination of this entity.
+            
             destPos = Vector2.Zero;
             return false ;
         }

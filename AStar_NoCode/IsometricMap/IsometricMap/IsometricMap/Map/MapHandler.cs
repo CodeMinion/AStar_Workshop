@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 using IsometricMap.Pathfinder.Base;
-//using IsometricMap.Pathfinder.A_Star;
 namespace IsometricMap.Map
 {
     public class MapHandler
@@ -175,7 +174,7 @@ namespace IsometricMap.Map
                 }
             }
         }
-         * */
+         */
         public Vector2 GetTilePosition(Vector2 tileIndex)
         {
             if (m_mlActiveLayer == null)
@@ -230,6 +229,13 @@ namespace IsometricMap.Map
             finalPos.X = x;
             finalPos.Y = y;
             return finalPos;
+        }
+        public void SetTileSolid(Vector2 tileIndex, bool isSolid)
+        {
+            if (m_mlActiveLayer == null)
+                return;
+
+            m_mlActiveLayer.SetTileToSolid((int)tileIndex.X, (int)tileIndex.Y, isSolid);
         }
         
     }
