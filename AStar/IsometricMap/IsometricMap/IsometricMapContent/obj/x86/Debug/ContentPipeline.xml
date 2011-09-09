@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Map_Tileset\iso-64x64-outside.png</Source>
+      <Name>Map_Tileset\iso-64x64-outside</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Map_Tileset\iso-64x64-outside.xnb</Output>
+      <Time>2011-08-21T21:52:00.8402967-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_red.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_red.xnb</Output>
+      <Time>2011-08-30T22:23:14.3250868-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_black.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_black.xnb</Output>
+      <Time>2011-09-01T10:51:37.6688054-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_blue.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_blue.xnb</Output>
+      <Time>2011-09-01T10:51:37.6838062-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_cyan.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_cyan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_cyan.xnb</Output>
+      <Time>2011-09-01T10:51:37.6988071-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_green.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_green.xnb</Output>
+      <Time>2011-09-01T10:51:37.7128079-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_orange.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_orange.xnb</Output>
+      <Time>2011-09-01T10:51:37.7288088-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_pink.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_pink.xnb</Output>
+      <Time>2011-09-01T10:51:37.7448097-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_purple.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_purple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_purple.xnb</Output>
+      <Time>2011-09-01T10:51:37.7598106-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_white.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_white.xnb</Output>
+      <Time>2011-09-01T10:51:37.7748114-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Gobling\Lumberjack\goblin_lumberjack_yellow.png</Source>
+      <Name>Sprites\Gobling\Lumberjack\goblin_lumberjack_yellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_yellow.xnb</Output>
+      <Time>2011-09-01T10:51:37.7908124-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Mouse\pointer.png</Source>
+      <Name>Sprites\Mouse\pointer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Mouse\pointer.xnb</Output>
+      <Time>2011-09-01T22:27:41.4637201-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Map_Tileset\human-city.png</Source>
+      <Name>Map_Tileset\human-city</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Map_Tileset\human-city.xnb</Output>
+      <Time>2011-09-03T11:08:44.0371828-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\DisplayFont.spritefont</Source>
+      <Name>Fonts\DisplayFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Fonts\DisplayFont.xnb</Output>
+      <Time>2011-09-04T00:05:52.6922699-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SIG_Games_Utils\Border.png</Source>
+      <Name>SIG_Games_Utils\Border</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\SIG_Games_Utils\Border.xnb</Output>
+      <Time>2011-09-04T12:08:45.4357877-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundEffects\Mouse\click-click-mono.wav</Source>
+      <Name>SoundEffects\Mouse\click-click-mono</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\documents\visual studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\SoundEffects\Mouse\click-click-mono.xnb</Output>
+      <Time>2011-09-04T16:07:37.1451674-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMapContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMapContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-08-21T10:39:03.159336-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

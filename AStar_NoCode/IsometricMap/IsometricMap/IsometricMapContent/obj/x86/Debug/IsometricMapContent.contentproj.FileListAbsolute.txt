@@ -1,0 +1,2 @@
+C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMapContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar_NoCode\IsometricMap\IsometricMap\IsometricMapContent\obj\x86\Debug\ResolveAssemblyReference.cache
