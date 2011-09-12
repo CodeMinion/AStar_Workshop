@@ -111,6 +111,8 @@
     <Compile Include="Entities\GoblinLumberjack.cs" />
     <Compile Include="Entities\LumberMill.cs" />
     <Compile Include="Entities\TreeEntity.cs" />
+    <Compile Include="Formations\Formation.cs" />
+    <Compile Include="Formations\FormationPosition.cs" />
     <Compile Include="Logic\Base\BaseState.cs" />
     <Compile Include="Logic\Base\StateMachine.cs" />
     <Compile Include="Logic\States\Goblin\Lumberjack\GLumberjack_ChopWood.cs" />
@@ -132,6 +134,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Sprites\Animation.cs" />
+    <Compile Include="Squad\AtomicSquad.cs" />
+    <Compile Include="Squad\BaseSquad.cs" />
+    <Compile Include="Squad\CompositeSquad.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game11.ico" />

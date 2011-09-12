@@ -370,18 +370,21 @@ namespace IsometricMap.Entities
             if (isDestSolid)
             {
                 List<Vector2> adj = MapHandler.GetInstance().GetAdjacentsToTile(endIndex);
-                closestSoFar = adj[0];
-                foreach (Vector2 vec in adj)
+                if (adj != null && adj.Count>0)
                 {
-                    if (!MapHandler.GetInstance().IsTileSolid(vec))
+                    closestSoFar = adj[0];
+                    foreach (Vector2 vec in adj)
                     {
-                        // Find the closest adjecent to the caller.
-                        if (Vector2.Distance(closestSoFar, startIndex) > Vector2.Distance(vec, startIndex))
+                        if (!MapHandler.GetInstance().IsTileSolid(vec))
                         {
-                            closestSoFar = vec;
+                            // Find the closest adjecent to the caller.
+                            if (Vector2.Distance(closestSoFar, startIndex) > Vector2.Distance(vec, startIndex))
+                            {
+                                closestSoFar = vec;
+                            }
+                            //endIndex = vec;
+                            //break;
                         }
-                        //endIndex = vec;
-                        //break;
                     }
                 }
             }

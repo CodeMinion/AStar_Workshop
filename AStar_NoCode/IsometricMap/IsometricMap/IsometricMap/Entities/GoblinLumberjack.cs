@@ -328,6 +328,7 @@ namespace IsometricMap.Entities
             {
                 base.MoveTo(targetPos);
             }
+           
             //Vector2 startIndex = Map.MapHandler.GetInstance().GetTileIndex(m_WorldPosition);
             //Vector2 endIndex = Map.MapHandler.GetInstance().GetTileIndex(targetPos);
             
@@ -431,6 +432,7 @@ namespace IsometricMap.Entities
 
             if (m_pnCurrPath == null)
                 return;
+
 
             #region Nothing to see here, move along.
 

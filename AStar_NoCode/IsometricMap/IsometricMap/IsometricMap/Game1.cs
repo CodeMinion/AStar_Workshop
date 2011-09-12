@@ -490,6 +490,13 @@ namespace IsometricMap
                         if (dest.X >= 0 && dest.X < m_DrawWidth * 64
                             && dest.Y >= 0 && dest.Y < m_DrawHeight * (int)(64 * 0.25))
                             m_Gobling.MoveTo(dest);
+                        /*
+                        Vector2 mouseTileIndex = MapHandler.GetInstance().GetTileIndex(m_mousePostion);
+                        if (mouseTileIndex.X >= 0 && mouseTileIndex.X < m_DrawWidth
+                            && mouseTileIndex.Y >= 0 && mouseTileIndex.Y < m_DrawHeight)
+                        {
+                            m_Gobling.MoveTo(m_mousePostion);
+                        }*/
                     }
 
                 }

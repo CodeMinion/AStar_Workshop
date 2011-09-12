@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Map_Tileset\iso-64x64-outside.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Map_Tileset\iso-64x64-outside.xnb</Output>
       <Time>2011-08-21T21:52:00.8402967-04:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_red.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_red.xnb</Output>
       <Time>2011-08-30T22:23:14.3250868-04:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_black.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_black.xnb</Output>
       <Time>2011-09-01T10:51:37.6688054-04:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_blue.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_blue.xnb</Output>
       <Time>2011-09-01T10:51:37.6838062-04:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_cyan.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_cyan.xnb</Output>
       <Time>2011-09-01T10:51:37.6988071-04:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_green.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_green.xnb</Output>
       <Time>2011-09-01T10:51:37.7128079-04:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_orange.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_orange.xnb</Output>
       <Time>2011-09-01T10:51:37.7288088-04:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_pink.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_pink.xnb</Output>
       <Time>2011-09-01T10:51:37.7448097-04:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_purple.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_purple.xnb</Output>
       <Time>2011-09-01T10:51:37.7598106-04:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_white.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_white.xnb</Output>
       <Time>2011-09-01T10:51:37.7748114-04:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_yellow.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Gobling\Lumberjack\goblin_lumberjack_yellow.xnb</Output>
       <Time>2011-09-01T10:51:37.7908124-04:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Mouse\pointer.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Sprites\Mouse\pointer.xnb</Output>
       <Time>2011-09-01T22:27:41.4637201-04:00</Time>
     </Item>
     <Item>
@@ -115,17 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Map_Tileset\human-city.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Map_Tileset\human-city.xnb</Output>
       <Time>2011-09-03T11:08:44.0371828-04:00</Time>
-    </Item>
-    <Item>
-      <Source>SIG_Games_Utils\Border.png</Source>
-      <Name>SIG_Games_Utils\Border</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\SIG_Games_Utils\Border.xnb</Output>
-      <Time>2011-09-04T12:08:45.4357877-04:00</Time>
     </Item>
     <Item>
       <Source>Fonts\DisplayFont.spritefont</Source>
@@ -133,8 +124,17 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Fonts\DisplayFont.xnb</Output>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\Fonts\DisplayFont.xnb</Output>
       <Time>2011-09-04T00:05:52.6922699-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SIG_Games_Utils\Border.png</Source>
+      <Name>SIG_Games_Utils\Border</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\SIG_Games_Utils\Border.xnb</Output>
+      <Time>2011-09-04T12:08:45.4357877-04:00</Time>
     </Item>
     <Item>
       <Source>SoundEffects\Mouse\click-click-mono.wav</Source>
@@ -142,7 +142,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\SoundEffects\Mouse\click-click-mono.xnb</Output>
+      <Output>C:\Users\CodeMinion\documents\visual studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\SoundEffects\Mouse\click-click-mono.xnb</Output>
       <Time>2011-09-04T16:07:37.1451674-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -151,10 +151,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMapContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMapContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\CodeMinion\GitRepos\AStar_Workshop\AStar\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMapContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMapContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\CodeMinion\Documents\Visual Studio 2010\Projects\IsometricMap\IsometricMap\IsometricMap\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
